@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - MarketPlace</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Google Sign-In API -->
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    
+    <!-- Facebook SDK -->
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">MarketPlace</div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search items...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            <div class="nav-buttons">
+                <button id="favoritesButton" class="secondary-btn"><i class="fas fa-heart"></i> Favorites</button>
+                <button id="sellButton" class="primary-btn">+ SELL</button>
+                <button id="loginButton">Login</button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="faq-page">
+        <div class="container">
+            <h1>Frequently Asked Questions</h1>
+            
+            <section class="faq-section">
+                <h2>General Questions</h2>
+                
+                <div class="faq-item">
+                    <h3>How do I create an account?</h3>
+                    <p>Click the "Login" button at the top of the page and select "Sign up". You can create an account using your email or sign up with Google or Facebook.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>Is it free to use MarketPlace?</h3>
+                    <p>Yes, creating an account and browsing items is completely free. We only charge a small fee when you successfully sell an item.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>What areas do you serve?</h3>
+                    <p>We currently operate in over 100 cities worldwide. Enter your location to see items available in your area.</p>
+                </div>
+            </section>
+
+            <section class="faq-section">
+                <h2>Buying</h2>
+                
+                <div class="faq-item">
+                    <h3>How do I contact a seller?</h3>
+                    <p>Click the "Contact Seller" button on any listing to start a conversation through our secure messaging system.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>Is my payment secure?</h3>
+                    <p>Yes, we use industry-standard encryption and secure payment processors to protect all transactions.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>What if I have issues with my purchase?</h3>
+                    <p>Contact the seller first through our messaging system. If you can't resolve the issue, our customer support team is available 24/7.</p>
+                </div>
+            </section>
+
+            <section class="faq-section">
+                <h2>Selling</h2>
+                
+                <div class="faq-item">
+                    <h3>How do I list an item?</h3>
+                    <p>Click the "+ SELL" button, fill in your item details, add photos, and set your price. Your listing will be live immediately.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>What can I sell?</h3>
+                    <p>You can sell most legal items. Check our Terms & Conditions for a list of prohibited items.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>What are the selling fees?</h3>
+                    <p>We charge a 5% fee on successful sales. Listing items is completely free.</p>
+                </div>
+            </section>
+
+            <section class="faq-section">
+                <h2>Account & Security</h2>
+                
+                <div class="faq-item">
+                    <h3>How do I reset my password?</h3>
+                    <p>Click "Login", then "Forgot Password" and follow the instructions sent to your email.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>How do I report a suspicious user?</h3>
+                    <p>Click the "Report" button on any user profile or listing, or contact our support team directly.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>How do you protect my data?</h3>
+                    <p>We use advanced security measures to protect your data. Read our Privacy Policy for detailed information.</p>
+                </div>
+            </section>
+
+            <section class="faq-section">
+                <h2>Still Have Questions?</h2>
+                <p class="contact-support">
+                    Can't find what you're looking for? Our support team is here to help 24/7.
+                    <a href="contact.html" class="primary-btn">Contact Support</a>
+                </p>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>MarketPlace</h3>
+                <p>Your trusted platform for buying and selling items locally. Join our community today!</p>
+                <div class="social-links">
+                    <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="terms.html">Terms & Conditions</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Categories</h4>
+                <ul>
+                    <li><a href="#">Electronics</a></li>
+                    <li><a href="#">Vehicles</a></li>
+                    <li><a href="#">Property</a></li>
+                    <li><a href="#">Fashion</a></li>
+                    <li><a href="#">Services</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <ul class="contact-info">
+                    <li><i class="fas fa-phone"></i> +1 (234) 567-8900</li>
+                    <li><i class="fas fa-envelope"></i> support@marketplace.com</li>
+                    <li><i class="fas fa-map-marker-alt"></i> 123 Market Street, City, Country</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="footer-bottom-content">
+                <p>&copy; 2025 MarketPlace. All rights reserved.</p>
+                <div class="payment-methods">
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-paypal"></i>
+                    <i class="fab fa-cc-apple-pay"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Sell Item Modal -->
+    <div id="sellModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Post Your Ad</h2>
+            <form id="sellForm">
+                <input type="text" placeholder="Title" required>
+                <input type="number" placeholder="Price" required>
+                <select required>
+                    <option value="">Select Category</option>
+                    <option value="electronics">Electronics</option>
+                    <option value="vehicles">Vehicles</option>
+                    <option value="property">Property</option>
+                    <option value="furniture">Furniture</option>
+                    <option value="fashion">Fashion</option>
+                    <option value="books">Books</option>
+                </select>
+                <div class="location-field">
+                    <input type="text" id="location" placeholder="Location" required>
+                    <button type="button" id="getCurrentLocation" class="location-btn">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </button>
+                </div>
+                <textarea placeholder="Description" required></textarea>
+                <input type="file" accept="image/*" multiple required>
+                <button type="submit" class="primary-btn">Post Ad</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Login Modal -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Login</h2>
+            <form id="loginForm">
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit" class="primary-btn">Login</button>
+                
+                <div class="social-login">
+                    <p>Or login with:</p>
+                    <div class="social-buttons">
+                        <button type="button" id="googleLogin" class="social-btn google-btn">
+                            <i class="fab fa-google"></i> Google
+                        </button>
+                        <button type="button" id="facebookLogin" class="social-btn facebook-btn">
+                            <i class="fab fa-facebook"></i> Facebook
+                        </button>
+                    </div>
+                </div>
+                
+                <p>Don't have an account? <a href="#" id="signupLink">Sign up</a></p>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
